@@ -20,6 +20,14 @@
 
 <p>In the exemple a news dataset are used and the model is trained used the headlines of three different categories: Politics, Entertainment and Travel</p>
 
-<p>The model generates vector to represent each word. So, we can use apply a lot of methods in the vectors space, like cosine similarity, to obtain the most similar words. This can be use to form clusters of words</p>
+<p>The model generates vector to represent each word. So, we can apply a lot of methods in the vectors space, like cosine similarity, to obtain the most similar words. This can be use to form clusters of words</p>
 
-![alt text](https://github.com/AlexandreH13/word_similarity_visualization/imgs/word2vec.png)
+![alt text](https://github.com/AlexandreH13/word_similarity_visualization/blob/main/imgs/word2vec.png?raw=true)
+
+
+---
+<center><h2>Results</h2></center>
+
+<p>As can be seen in the image below, a graph is created were its vertices represents the words in the vocabulary and the edges represents the distance (similarity)</p>
+
+![alt text](https://github.com/AlexandreH13/word_similarity_visualization/blob/main/imgs/newplot.png?raw=true)
