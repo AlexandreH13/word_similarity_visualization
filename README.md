@@ -1,7 +1,7 @@
 # <h1 align="center">Word Similarity Visualization</h1>
 ### An example of <b>word similarity visualization</b> using an Word2Vec model and networkx
 
-## Libs and tools: books:
+## Libs and tools:
 
 - [Python](https://www.python.org/): version 3.7.5
 - [Pandas](https://pandas.pydata.org/): version 1.1.1
