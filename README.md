@@ -34,9 +34,9 @@
 
 ![alt text](https://github.com/AlexandreH13/word_similarity_visualization/blob/main/imgs/elbow_method.png?raw=true)
 
-<p>To see if the groups were formed correctly, we provide words from each category anc check if its groups are the same.</p>
+<p>To see if the groups were formed correctly, we provide words from each category and check if its groups are the same.</p>
 
-![alt text](https://github.com/AlexandreH13/word_similarity_visualization/blob/main/imgs/w_groups.png?raw=true)
+![alt text](https://github.com/AlexandreH13/word_similarity_visualization/blob/main/imgs/word_groups.png?raw=true)
 
 <p><h2>Visualization</h2></p>
 <p>Finally, we plot the clusters using the graph structure. As can be seen in the image below, a graph is created were its vertices represents the words in the vocabulary and the edges represents the distance (similarity)</p>
