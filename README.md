@@ -18,7 +18,7 @@
 
 <p>This repository provides an example of word similarity visualization. Here we use a word2vec model that vectorizes each word, cosine similarity to calculate the distance between each word vector and networkx to plot the word embedding into a graph structure</p>
 
-<p>In the exemple a news dataset are used and the model is trained used the headlines of three different categories: Politics, Entertainment and Travel</p>
+<p>The example uses a news dataset and the model is trained using the headlines of three different categories: Politics, Entertainment and Travel</p>
 
 <p>The model generates vector to represent each word. So, we can apply a lot of methods in the vectors space, like cosine similarity, to obtain the most similar words. This can be use to form clusters of words</p>
 
@@ -28,6 +28,12 @@
 ---
 <center><h2>Results</h2></center>
 
-<p>As can be seen in the image below, a graph is created were its vertices represents the words in the vocabulary and the edges represents the distance (similarity)</p>
+<p><h2>Clustering</h2></p>
+<p>First we use the word vectors in a Kmeans method to see how well the groups(news categories) are splitted. To determine the optimal numbers of clusters, the elbow method was applied. We can see in the image below that the optimal number of clusters matches with the number of categories.</p>
+
+![alt text](https://github.com/AlexandreH13/word_similarity_visualization/blob/main/imgs/elbow_method.png?raw=true)
+
+<p><h2>Visualization</h2></p>
+<p>Finally, we plot the clusters using the graph structure. As can be seen in the image below, a graph is created were its vertices represents the words in the vocabulary and the edges represents the distance (similarity)</p>
 
 ![alt text](https://github.com/AlexandreH13/word_similarity_visualization/blob/main/imgs/newplot.png?raw=true)
